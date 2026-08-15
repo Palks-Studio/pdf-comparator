@@ -46,12 +46,12 @@ pdf-comparator/
     ├── EN/
     │   ├── old.pdf                → Exemple du PDF original en anglais
     │   ├── new.pdf                → Exemple du PDF modifié en anglais
-    │   └── compare_pdf.mp4        → Vidéo de démonstration en anglais
+    │   └── compare_pdf_en.mp4     → Vidéo de démonstration en anglais
     │
     └── FR/
         ├── ancien.pdf             → Exemple du PDF original en français
         ├── nouveau.pdf            → Exemple du PDF modifié en français
-        └── compare_pdf.mp4        → Vidéo de démonstration en français
+        └── compare_pdf_fr.mp4     → Vidéo de démonstration en français
 ```
 
 ---
