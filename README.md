@@ -39,9 +39,19 @@ pdf-comparator/
 ├── README_FR.md                   → French documentation
 │
 └── docs/
-    └── images/
-        ├── Palks_Studio.png       → Palks Studio logo
-        └── pdf_comparator.png     → PDF Comparator presentation image
+    ├── images/
+    │   ├── Palks_Studio.png       → Palks Studio logo
+    │   └── pdf_comparator.png     → PDF Comparator presentation image
+    │
+    ├── EN/
+    │   ├── old.pdf                → Example original PDF in English
+    │   ├── new.pdf                → Example modified PDF in English
+    │   └── compare_pdf.mp4        → English demonstration video
+    │
+    └── FR/
+        ├── ancien.pdf             → Example original PDF in French
+        ├── nouveau.pdf            → Example modified PDF in French
+        └── compare_pdf.mp4        → French demonstration video
 ```
 
 ---
@@ -108,6 +118,18 @@ Install the dependency:
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+---
+
+## Examples and demonstration
+
+The repository includes example files that can be used to test PDF Comparator directly.
+
+Two sets are available in the `docs/` directory, in English and French. Each version includes two PDF files containing differences, along with a short video showing their comparison using the tool.
+
+These files provide a quick way to explore how the comparator works before using it with your own documents.
+
+---
 
 ## Usage
 
