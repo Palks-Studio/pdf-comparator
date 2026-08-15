@@ -39,9 +39,19 @@ pdf-comparator/
 ├── README_FR.md                   → Documentation française
 │
 └── docs/
-    └── images/
-        ├── Palks_Studio.png       → Logo Palks Studio
-        └── pdf_comparator.png     → Image de présentation de PDF Comparator
+    ├── images/
+    │   ├── Palks_Studio.png       → Logo Palks Studio
+    │   └── pdf_comparator.png     → Image de présentation de PDF Comparator
+    │
+    ├── EN/
+    │   ├── old.pdf                → Exemple du PDF original en anglais
+    │   ├── new.pdf                → Exemple du PDF modifié en anglais
+    │   └── compare_pdf.mp4        → Vidéo de démonstration en anglais
+    │
+    └── FR/
+        ├── ancien.pdf             → Exemple du PDF original en français
+        ├── nouveau.pdf            → Exemple du PDF modifié en français
+        └── compare_pdf.mp4        → Vidéo de démonstration en français
 ```
 
 ---
@@ -108,6 +118,16 @@ Installez la dépendance :
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+---
+
+## Exemples et démonstration
+
+Le dépôt contient des fichiers d'exemple permettant de tester directement PDF Comparator.
+
+Deux jeux sont disponibles dans le dossier `docs/`, en français et en anglais. Chaque version comprend deux fichiers PDF présentant des différences, ainsi qu'une courte vidéo montrant leur comparaison avec l'outil.
+
+Ces fichiers permettent de découvrir rapidement le fonctionnement du comparateur avant de l'utiliser avec vos propres documents.
 
 ---
 
