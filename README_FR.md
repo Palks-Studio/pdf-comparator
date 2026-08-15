@@ -28,6 +28,24 @@ Aucune IA, aucune API externe et aucun envoi de fichier vers un service tiers.
 
 ---
 
+## Structure
+
+```text
+pdf-comparator/
+├── pdf-compare.py                 → Script principal de comparaison PDF
+├── requirements.txt               → Dépendances Python requises
+├── LICENSE.md                     → Licence MIT
+├── README.md                      → Documentation anglaise
+├── README_FR.md                   → Documentation française
+│
+└── docs/
+    └── images/
+        ├── Palks_Studio.png       → Logo Palks Studio
+        └── pdf_comparator.png     → Image de présentation de PDF Comparator
+```
+
+---
+
 ## Fonctionnement
 
 Le principe est volontairement simple :
@@ -111,24 +129,6 @@ EN: No differences detected.
 ```
 
 Dans le cas contraire, les différences sont affichées directement dans le terminal.
-
----
-
-## Structure
-
-```text
-pdf-comparator/
-├── docs
-│   └── images
-│       ├── Palks_Studio.png       → Logo Palks Studio
-│       └── pdf_comparator.png     → Image de présentation du comparateur
-│
-├── LICENSE.md                     → Licence MIT du projet
-├── pdf-compare.py                 → Script principal de comparaison des PDF
-├── README.md                      → Documentation en anglais
-├── README_FR.md                   → Documentation en français
-└── requirements.txt               → Dépendances Python nécessaires
-```
 
 ---
 
