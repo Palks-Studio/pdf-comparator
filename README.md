@@ -1,7 +1,7 @@
 <p align="center">
   <img src="docs/images/pdf_comparator.png"
        alt="PDF Comparator — local comparison of two files and detection of differences"
-       width="600">
+       width="1200">
 </p>
 
 > 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
