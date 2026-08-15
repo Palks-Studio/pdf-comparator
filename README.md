@@ -28,6 +28,24 @@ No AI, no external API, and no file upload to any third-party service.
 
 ---
 
+## Structure
+
+```text
+pdf-comparator/
+├── pdf-compare.py                 → Main PDF comparison script
+├── requirements.txt               → Required Python dependencies
+├── LICENSE.md                     → MIT License
+├── README.md                      → English documentation
+├── README_FR.md                   → French documentation
+│
+└── docs/
+    └── images/
+        ├── Palks_Studio.png       → Palks Studio logo
+        └── pdf_comparator.png     → PDF Comparator presentation image
+```
+
+---
+
 ## How it works
 
 The principle is intentionally simple:
@@ -109,24 +127,6 @@ EN: No differences detected.
 ```
 
 Otherwise, the detected differences are displayed directly in the terminal.
-
----
-
-## Structure
-
-```text
-pdf-comparator/
-├── docs
-│   └── images
-│       ├── Palks_Studio.png       → Palks Studio logo
-│       └── pdf_comparator.png     → PDF Comparator presentation image
-│
-├── LICENSE.md                     → MIT License
-├── pdf-compare.py                 → Main PDF comparison script
-├── README.md                      → English documentation
-├── README_FR.md                   → French documentation
-└── requirements.txt               → Required Python dependencies
-```
 
 ---
 
