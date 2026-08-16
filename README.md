@@ -18,7 +18,7 @@
   </a>
 </p>
 
-# PDF Comparator
+# PDF Comparator, Open Source
 
 A simple and local PDF file comparison tool built with Python.
 
