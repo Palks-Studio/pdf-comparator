@@ -11,6 +11,7 @@
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+[![DEV.to](https://img.shields.io/badge/DEV.to-Technical%20Article-7C3AED?style=flat&logo=devdotto&logoColor=white)](https://dev.to/palks_studio/compare-two-pdf-files-locally-with-python-43il)
 
 <p align="center">
   <a href="https://palks-studio.com">
@@ -25,6 +26,10 @@ A simple and local PDF file comparison tool built with Python.
 The tool extracts the textual content of two PDF documents, lightly normalizes the data, then displays the differences detected between the two versions.
 
 No AI, no external API, and no file upload to any third-party service.
+
+For a closer look at the technical approach, this article explores the design of PDF Comparator, PDF text extraction and normalization, and the engineering choices behind comparing two documents entirely locally with Python.
+
+👉 [Compare Two PDF Files Locally With Python](https://dev.to/palks_studio/compare-two-pdf-files-locally-with-python-43il) (DEV.to)
 
 ---
 
